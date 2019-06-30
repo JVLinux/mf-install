@@ -1,15 +1,13 @@
 # mf-install
 Media Foundation workaround for Wine
 
-Easily add Media Foundation support to a Wine prefix. Just set WINEPREFIX and run.
+Easily add Media Foundation support to a Wine prefix.
+Just type the Steam Game ID (for example, 582010 for Munster Hunter World)
 
 Example:
-
-`WINEPREFIX="/home/gaben/.local/share/Steam/steamapps/compatdata/751440/pfx" ./install-mf.sh`
-
+./install-mf.sh 582010
 
 ### Known working games:
-
 - Monster Hunter World
 - GRIS
 - Breathedge
